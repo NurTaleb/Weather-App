@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://t3.ftcdn.net/jpg/05/79/86/10/360_F_579861052_KjeAAbyaXOBY6JjxMEPBVJypp2KSb59v.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+}
+
+main {
+    background-color: rgb(218, 230, 200,0.80);
+    position: relative;
+    top: 40%;  /* går ner  */
+    border: 2px solid; /* runt om blir bold */
+    border-radius: 10px; /* kanterna blir runda */
+    min-width: 500px; /* minsta  */
+    max-width: 50%; /* högsta */
+    margin: auto; /* mitten */
+    padding: 2rem;
+    
+}
+
+h1 {
+    margin-bottom: 20px; /* i rutan gör den större neråt */
+}
+
+#search {
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 9px;
+    font-size: 15px;
+    width: 90%;
+    height: 30px;
+}
+
+#submit {
+    border: 0 5px 5px 0;
+    padding: 5px;
+    font-size: 15px;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#weather-wrapper {
+    display: flex; /* align center */
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+}
+
+#weather-search {
+    display: flex;
+    width: 60%;
+}
+
+#weather-data {
+    background-color: rgba(219, 213, 213, 0.85);
+    border-radius: 10px;
+    padding: 2em;
+    margin-top: 25px;
+  
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  #weather-data > img {
+    border-radius: 50%;
+    background-color: rgb(82, 173, 230);
+  }
